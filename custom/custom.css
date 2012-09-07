@@ -18,6 +18,7 @@ More Info:	http://diythemes.com/thesis/rtfm/custom-css/
 /* navigation */
 .custom .menu {border-left:none;}
 .custom .menu > li > a {background:#fff; border-top:none; border-bottom:none;}
+.custom .menu > li > a:hover {background:#ddd;}
 .custom .menu > li {margin-bottom:0;}
 .custom .menu li ul { margin-top: 0; }
 .custom .menu a:hover {-moz-transition:background linear 200ms; -webkit-transition:background linear 200ms; -khtml-transition:background linear 200ms; -o-transition:background linear 200ms; transition:background linear 200ms;}
