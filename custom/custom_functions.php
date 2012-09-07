@@ -67,7 +67,7 @@ add_action('thesis_hook_footer','widgetized_footer');
 // custom footer 
 function custom_footer() { ?>
 <div id="copyright-text">
-<p> &copy; Copyright <?php echo date('Y'); ?> | <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> | <a href="http://icustomizethesis.com/" title="Thesis Customization" target="_blank">Thesis Customization</a> by <a href="http://icustomizethesis.com/" title="Thesis Customization" target="_blank">iCustomizeThesis</a></p>
+<p> &copy; Copyright <?php echo date('Y'); ?> | <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> | <a href="http://icustomizethesis.com/" title="Thesis Customization" onclick="window.open(this.href); return false;">Thesis Customization</a> by <a href="http://icustomizethesis.com/" title="Thesis Customization" onclick="window.open(this.href); return false;">iCustomizeThesis</a></p>
 </div>
 <?php }
 
