@@ -8,6 +8,8 @@ Installation:
 To install this skin, simply download the custom folder and upload it to your Thesis directory via FTP 
 Then login to WordPress admin. Go to Thesis >> Manage Options and Upload the design options file provided here. 
 
+Demo : http://osc.icustomizethesis.com/
+
 NOTE: 
 Making these changes will overwrite your existing theme customization. So, in case you are using a customized Thesis 
 theme make sure to create a backup first. 
