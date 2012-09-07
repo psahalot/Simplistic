@@ -16,20 +16,6 @@ add_action('thesis_hook_after_header','thesis_nav_menu');
 //remove thesis attribution 
 remove_action('thesis_hook_footer','thesis_attribution');
 
-function custom_link_open () {
-if(is_home()) { ?>
-	<a href="<?php the_permalink(); ?>" >
-<?php }
-}
-add_action ('thesis_hook_before_teaser','custom_link_open');
-
-function custom_link_close () {
-if(is_home()) { ?>
- </a>
-<?php }
-}
-add_action ('thesis_hook_after_teaser','custom_link_close');
-
 function add_to_byline() { ?>
    	<p class="headline_meta"><?php echo (''). ' <span>' .get_the_time('F j, Y') . '</span></p>'; ?>
 <?php }
@@ -81,7 +67,7 @@ add_action('thesis_hook_footer','widgetized_footer');
 // custom footer 
 function custom_footer() { ?>
 <div id="copyright-text">
-<p> &copy; Copyright <?php echo date('Y'); ?> | <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> | <a href="http://icustomizethesis.com/" title="Thesis Customization" target="_blank">Thesis Customization</a> by <a href="http://icustomizethesis.com/" title="Thesis Customization" target="_blank">iCustomizeThesis</a>
+<p> &copy; Copyright <?php echo date('Y'); ?> | <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> | <a href="http://icustomizethesis.com/" title="Thesis Customization" target="_blank">Thesis Customization</a> by <a href="http://icustomizethesis.com/" title="Thesis Customization" target="_blank">iCustomizeThesis</a></p>
 </div>
 <?php }
 
