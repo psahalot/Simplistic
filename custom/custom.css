@@ -31,8 +31,8 @@ More Info:	http://diythemes.com/thesis/rtfm/custom-css/
 .custom .teaser { background:url(images/arrow.png) no-repeat 59em 1em; width: 100%; margin-top: 2em; border-bottom: 1px solid #ddd; float:left; padding-bottom: 2em; padding-right:1em; padding-left:1em; position:relative; text-align: justify;}
 .custom .teasers_box {  padding-top: 0;   padding-bottom:0;  border-top: 0; margin-right:0; margin-left:0; width:61.2em; }
 .custom .teaser .teaser_date {  background: #bbb; color: #fff; margin-left: -11px;  padding: 2px 8px; letter-spacing:3px; text-transform:capitalize;}
-.custom .format_teaser a {color:#111; text-decoration:none;}
-.custom .format_teaser a:hover {-moz-transition:color linear 200ms; -khtml-transition:color linear 200ms; -webkit-transition:color linear 200ms; -o-transition:color linear 200ms; transition:color linear 200ms; color:#666; text-decoration:none;}
+.custom .format_text p a {text-decoration:none;}
+.custom .format_text p a:hover {-moz-transition:color linear 200ms; -khtml-transition:color linear 200ms; -webkit-transition:color linear 200ms; -o-transition:color linear 200ms; transition:color linear 200ms; color:#666; text-decoration:none;}
 .custom a.teaser_comments {color:#2288BB;border:none;}
 
 /* sidebars */
